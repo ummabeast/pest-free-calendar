@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//Pest-Free Calendar//EN
+BEGIN:VEVENT
+DTSTAMP:20250414T090000Z
+UID:daily-pest-check@example.com
+SUMMARY:Daily Pest Check (Quick Sweep, Crumbs, Dog Bowls)
+DTSTART;VALUE=DATE:20250415
+RRULE:FREQ=DAILY
+DESCRIPTION:Check pet food, dishes, trash, counters and entry points.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250414T090000Z
+UID:weekly-pest-check@example.com
+SUMMARY:Weekly Home Perimeter & Deep Clean
+DTSTART;VALUE=DATE:20250415
+RRULE:FREQ=WEEKLY;BYDAY=MO
+DESCRIPTION:Vacuum, mop, clean drains, and inspect doors/windows.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250414T090000Z
+UID:monthly-borax-refresh@example.com
+SUMMARY:Monthly Borax Refresh & Declutter
+DTSTART;VALUE=DATE:20250501
+RRULE:FREQ=MONTHLY;BYMONTHDAY=1
+DESCRIPTION:Reapply borax/diatomaceous earth. Declutter and clean pantry.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250414T090000Z
+UID:quarterly-outdoor-check@example.com
+SUMMARY:Quarterly Outdoor Treatment & Seal Check
+DTSTART;VALUE=DATE:20250701
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYMONTHDAY=1
+DESCRIPTION:Treat perimeter, check crawl space, fix cracks or entry gaps.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250414T090000Z
+UID:yearly-spring-reset@example.com
+SUMMARY:Yearly Spring Pest Reset
+DTSTART;VALUE=DATE:20250321
+RRULE:FREQ=YEARLY
+DESCRIPTION:Deep clean, spray yard, replace screens & air vents.
+END:VEVENT
+END:VCALENDAR
